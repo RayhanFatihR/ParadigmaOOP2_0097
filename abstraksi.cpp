@@ -8,12 +8,12 @@ class AbstraksKlas {
     //method untuk mengisi nilai
     //private member
     void setXY(string a, string b){
-        x - a;
+        x = a;
         y = b;
     }
     //menampilkan nilai
     void display(){
-        cout << "Nilai x: " << x << endl;
-        cout << "Nilai y: " << y << endl;
+        cout << " x: " << x << endl;
+        cout << " y: " << y << endl;
     }
-}
+};
