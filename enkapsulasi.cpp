@@ -12,3 +12,11 @@ class remotLampu{
             return saklarNo[i];
         }
 };
+
+int main(){
+    remotreLampu lampuRumah;
+
+    lampuRumah.setSaklarNo(0, "Lampu Teras Rumah");
+    lampuRumah.setSaklarNo(1, "Lampu Ruang Tamu");
+    lampuRumah.setSaklarNo(2, "Lampu Kamar Tidur");
+}
