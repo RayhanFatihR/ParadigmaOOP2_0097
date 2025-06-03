@@ -17,3 +17,11 @@ class AbstraksKlas {
         cout << " y: " << y << endl;
     }
 };
+
+int main(){
+    AbstraksKlas objek;
+    objek.setXY("Lampung", "Indonesia");
+    objek.display();
+
+    return 0;
+}
